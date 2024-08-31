@@ -28,7 +28,7 @@ docker run -d --restart unless-stopped -e URL={{URL}} -e TOKEN={{TOKEN}} -e NAME
 - **`-d`**: Runs the container in detached mode, so it runs in the background.
 - **`--restart unless-stopped`**: Ensures the container automatically restarts if it stops or if the Docker daemon restarts.
 
-### Parameters
+#### Parameters
 
 - **`URL`**: The URL of your GitHub repository or organization where the runner should be registered. You can get this URL from the *GitHub Actions runner setup page*.
 - **`TOKEN`**: The registration token from GitHub, required to authenticate the runner. This token is also available on the *GitHub Actions runner setup page*.
